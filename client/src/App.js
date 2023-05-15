@@ -1,8 +1,5 @@
 import Header from './components/Header.js';
 import { ApolloProvider, ApolloClient, InMemoryCache} from '@apollo/client';
-// import Clients from './components/Clients.jsx'
-// import AddClientModal from './components/AddClientModal.jsx';
-// import Projects from './components/Projects.jsx';
 import  {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import NotFound from './pages/NotFound.jsx'
